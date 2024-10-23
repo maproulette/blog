@@ -3,7 +3,6 @@ title: Monthly MapRoulette Community Meetings
 date: 2024-06-14T12:23:49-07:00
 updated: 2024-06-15T11:27:38-07:00
 author: Martijn
-category: Uncategorized
 ---
 
 MapRoulette hosts monthly Community Meetings that are open to anyone

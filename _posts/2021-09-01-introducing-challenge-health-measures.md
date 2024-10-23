@@ -2,7 +2,6 @@
 title: Introducing Challenge Health Measures
 date: 2021-09-01T19:50:39-07:00
 author: Martijn
-category: Uncategorized
 ---
 
 I want everyone to enjoy fixing and improving OpenStreetMap with

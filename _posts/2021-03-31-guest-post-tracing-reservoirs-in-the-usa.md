@@ -1,8 +1,7 @@
 ---
 title: "Guest Post: Tracing Reservoirs in the USA"
 date: 2021-03-31T14:05:56-07:00
-author: Martijn
-category: Uncategorized
+author: Brian M. Sperlongano
 ---
 
 *This post was written by OSM and MapRoulette user **[Brian M.

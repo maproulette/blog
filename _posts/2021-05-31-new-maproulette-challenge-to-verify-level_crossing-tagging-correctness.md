@@ -2,7 +2,7 @@
 title: New MapRoulette Challenge to verify level_crossing tagging correctness
 date: 2021-05-31T11:14:50-07:00
 updated: 2021-05-31T11:15:04-07:00
-author: Martijn
+author: Alex Iannicelli & Yunzhi Li
 category: Challenge
 ---
 

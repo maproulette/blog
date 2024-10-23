@@ -1,8 +1,6 @@
 ---
 title: Add Schools in the Philippines
 date: 2021-03-15T15:44:47-07:00
-author: Anonymous
-category: Uncategorized
 ---
 
 Public schools in the Philippines are more than just a place for

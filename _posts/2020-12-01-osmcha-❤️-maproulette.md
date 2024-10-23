@@ -3,7 +3,6 @@ title: OSMCha ❤️ MapRoulette
 date: 2020-12-01T09:25:38-08:00
 updated: 2020-12-01T09:29:28-08:00
 author: Martijn
-category: Uncategorized
 ---
 
 OSMCha is a well known OSM changeset inspection and validation tool. It

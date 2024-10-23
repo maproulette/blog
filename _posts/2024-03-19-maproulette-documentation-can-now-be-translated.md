@@ -2,7 +2,6 @@
 title: MapRoulette Documentation Can Now Be Translated
 date: 2024-03-19T13:19:52-07:00
 author: Martijn
-category: Uncategorized
 ---
 
 Did you know that MapRoulette has extensive documentation? Up until now,
