@@ -7,7 +7,9 @@ category: Uncategorized
 
 Did you know that MapRoulette has extensive documentation? Up until now,
 the documentation was only available in English. With a recent update,
-you can now help translate the documentation in your own language! We
+you can now help translate the documentation in your own language!
+
+We
 use the Transifex platform to make it easy for anyone to help translate.
 The instructions are, where else, [on the MapRoulette Documentation
 website](https://learn.maproulette.org/en-us/documentation/translate-docs/)!

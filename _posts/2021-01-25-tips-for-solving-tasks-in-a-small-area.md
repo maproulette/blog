@@ -22,12 +22,8 @@ comment for the Challenge author, add MapRoulette Tags, and mark the
 task for Review. At the very bottom, you can also select where you want
 your next task to be: Random (the default) or Nearby:
 
-<figure class="wp-block-image size-large">
-<img
-src="https://blog.maproulette.org/wp-content/uploads/2021/01/Screen-Shot-2021-01-25-at-2.09.27-PM-1024x626.png"
-class="wp-image-47" data-fetchpriority="high" decoding="async"
-srcset="https://blog.maproulette.org/wp-content/uploads/2021/01/Screen-Shot-2021-01-25-at-2.09.27-PM-1024x626.png 1024w, https://blog.maproulette.org/wp-content/uploads/2021/01/Screen-Shot-2021-01-25-at-2.09.27-PM-300x183.png 300w, https://blog.maproulette.org/wp-content/uploads/2021/01/Screen-Shot-2021-01-25-at-2.09.27-PM-768x470.png 768w, https://blog.maproulette.org/wp-content/uploads/2021/01/Screen-Shot-2021-01-25-at-2.09.27-PM-1536x939.png 1536w, https://blog.maproulette.org/wp-content/uploads/2021/01/Screen-Shot-2021-01-25-at-2.09.27-PM-750x459.png 750w, https://blog.maproulette.org/wp-content/uploads/2021/01/Screen-Shot-2021-01-25-at-2.09.27-PM.png 1972w"
-sizes="(max-width: 1024px) 100vw, 1024px" width="1024" height="626" />
+<figure>
+{% picture images/mapping-tasks-nearby.png %}
 </figure>
 
 When you select Nearby, a helpful map appears that lets you see where
@@ -45,9 +41,8 @@ the fly in the Find Challenges screen. To create one, apply the Filters
 you want, then draw a lasso on the map to define the area you want Tasks
 for, and select ‘Work on X Tasks’.
 
-<figure class="wp-block-video">
-
-</figure>
+<video src="/videos/Screen-Recording-2021-01-25-at-5.12.43-PM.mov" controls>
+</video>
 
 MapRoulette will then take all the Tasks that fall inside the lasso you
 drew, and create an instant Virtual Challenge with its own link you can

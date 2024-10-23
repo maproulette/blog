@@ -9,9 +9,8 @@ Americans love cars. More than 90% of households own one, more than 20%
 of households own 3 or more. Cars stand still most of the time and for
 that, we need huge amounts of parking.
 
-<figure class="wp-block-image">
-<img src="https://images.rtijn.org/2022/parking_lot.jpg"
-decoding="async" alt="picture of parked cars" />
+<figure>
+{% picture images/parking_lot.jpg --alt picture of parked cars %}
 </figure>
 
 *Image source: [Flickr Commons](https://flic.kr/p/6VupPK)*
@@ -21,9 +20,8 @@ mark it `amenity=parking`. It will then show up on the map as a grey
 area with a blue “P”. In the United States, almost a million areas exist
 with the `amenity=parking` tag.
 
-<figure class="wp-block-image">
-<img src="https://images.rtijn.org/2022/parking_osm.png"
-decoding="async" alt="parking in rendered osm map" />
+<figure>
+{% picture images/parking_osm.png --alt parking lot in rendered OSM map %}
 </figure>
 
 For more detail, you can add the `parking=*` tag to indicate what kind
@@ -43,9 +41,8 @@ work with. You could use a bounding box or an area relation. In this
 example, I will use the relation for Houston, Texas. I look the relation
 id up using the OSM website:
 
-<figure class="wp-block-image">
-<img src="https://images.rtijn.org/2022/houston_texas_osm.png"
-decoding="async" alt="Houston relation on osm.org" />
+<figure>
+{% picture images/houston_texas_osm.png --alt Houston Texas boundary relation on osm.org %}
 </figure>
 
 Note down the relation id, in my case `2688911`.
@@ -55,7 +52,7 @@ Note down the relation id, in my case `2688911`.
 Next we fire up JOSM to load the existing parking areas for Houston. We
 use the following Overpass query:
 
-``` wp-block-code
+```overpassql
 rel(2688911);map_to_area->.houston;
 way[amenity=parking][!parking](area.houston)(if:length()>200);
 out;(._;>;);out meta;
@@ -65,9 +62,8 @@ This gives us all areas that are marked with `amenity=parking` but don’t
 have any `parking=*` tag. We filter out small areas by specifying a
 minimum perimeter length of 200 meters.
 
-<figure class="wp-block-image">
-<img src="https://images.rtijn.org/2022/houston_osm_parking.jpeg"
-decoding="async" alt="parking areas in JOSM" />
+<figure>
+{% picture images/houston_osm_parking.jpg --alt parking areas in JOSM %}
 </figure>
 
 Make sure you load this data into a new JOSM layer with no other data in
@@ -80,9 +76,8 @@ specifying `type:way` as the search parameter. We then add
 `parking=surface` to all of these ways. This change will be the tag
 suggestion in our MapRoulette task later.
 
-<figure class="wp-block-image">
-<img src="https://images.rtijn.org/2022/houston_parking_tag_change.png"
-decoding="async" alt="tag changes being made in JOSM" />
+<figure>
+{% picture images/houston_parking_tag_change.png --alt tag changes being made in JOSM %}
 </figure>
 
 Save the layer as a JOSM data file.
@@ -98,9 +93,8 @@ We use the following command to create the tag-fix challenge:
 
 `mr coop tag --out parking_houston.json parking_houston.osm`
 
-<figure class="wp-block-image">
-<img src="https://images.rtijn.org/2022/parking_houston_mrcli.png"
-decoding="async" alt="mr-cli processing the osm data" />
+<figure>
+{% picture images/parking_houston_mrcli.png --alt mr-cli processing the OSM data %}
 </figure>
 
 This will take our newly created modified OSM data `parking_houston.osm`
@@ -122,9 +116,8 @@ decision.
 Challenge](https://maproulette.org/browse/challenges/29854) we just
 created!
 
-<figure class="wp-block-image">
-<img src="https://images.rtijn.org/2022/houston_parking_task"
-decoding="async" alt="an example task in MapRoulette" />
+<figure>
+{% picture images/houston_parking_task.png --alt an example task in MapRoulette %}
 </figure>
 
 If you want to create a similar challenge for your city or area, you can

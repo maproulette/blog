@@ -18,10 +18,8 @@ Reservoirs” project aims to inspect each of the remaining reservoir
 nodes, and trace missing reservoirs, merge the existing ones, and delete
 the ones that don’t exist.
 
-<figure class="wp-block-image size-large">
-<img
-src="https://upload.wikimedia.org/wikipedia/commons/8/82/Cedar_lake_morning.jpg"
-decoding="async" />
+<figure>
+{% picture images/Cedar_lake_morning.jpg %}
 <figcaption>Cedar Lake in southern Illinois. <a
 href="https://commons.wikimedia.org/wiki/File:Cedar_lake_morning.jpg">Jeremiah.jahn</a>,
 <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA

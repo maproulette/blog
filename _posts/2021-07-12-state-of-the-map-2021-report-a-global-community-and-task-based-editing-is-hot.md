@@ -30,13 +30,8 @@ has seen a lot of interest not just from OSM Mappers, but also
 governments and other organizations who are interested in improving
 specific POI layers in OSM.
 
-<figure class="wp-block-image size-large">
-<img
-src="https://blog.maproulette.org/wp-content/uploads/2021/07/Screen-Shot-2021-07-12-at-10.35.07-AM-1024x560.png"
-class="wp-image-113" data-fetchpriority="high" decoding="async"
-srcset="https://blog.maproulette.org/wp-content/uploads/2021/07/Screen-Shot-2021-07-12-at-10.35.07-AM-1024x560.png 1024w, https://blog.maproulette.org/wp-content/uploads/2021/07/Screen-Shot-2021-07-12-at-10.35.07-AM-300x164.png 300w, https://blog.maproulette.org/wp-content/uploads/2021/07/Screen-Shot-2021-07-12-at-10.35.07-AM-768x420.png 768w, https://blog.maproulette.org/wp-content/uploads/2021/07/Screen-Shot-2021-07-12-at-10.35.07-AM-1536x841.png 1536w, https://blog.maproulette.org/wp-content/uploads/2021/07/Screen-Shot-2021-07-12-at-10.35.07-AM-2048x1121.png 2048w, https://blog.maproulette.org/wp-content/uploads/2021/07/Screen-Shot-2021-07-12-at-10.35.07-AM-750x410.png 750w"
-sizes="(max-width: 1024px) 100vw, 1024px" width="1024" height="560"
-alt="Screenshot of the MapComplete application" />
+<figure>
+{% picture images/mapcomplete.png --alt Screenshot of the MapComplete application %}
 <figcaption>MapComplete</figcaption>
 </figure>
 
@@ -54,17 +49,10 @@ StreetComplete handles edits. Sadly his talk happened at the same time
 as the MapRoulette workshop I’ll talk about in just a minute, but once
 all talk recordings are published I will catch up.
 
-<div class="wp-block-image">
-
-<figure class="aligncenter is-resized">
-<img
-src="https://wiki.openstreetmap.org/w/images/thumb/0/09/Streetcomplete_screenshot_newest.png/337px-Streetcomplete_screenshot_newest.png"
-decoding="async" width="253" height="449"
-alt="StreetComplete screenshot" />
+<figure style="width: fit-content; margin: 0 auto;">
+{% picture images/streetcomplete.png --alt StreetComplete screenshot %}
 <figcaption>StreetComplete</figcaption>
 </figure>
-
-</div>
 
 StreetComplete also came up in a Birds of a Feather session hosted by
 Ilya Zverev ([notes](https://hackmd.io/APIwK16rTUWlMNnDlh_ZEQ?view))
@@ -97,23 +85,13 @@ worth it if you want to get into creating these special types of
 MapRoulette Challenges that can help tremendously with “Manual Import”
 organized activities in OSM.
 
-<figure
-class="wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio">
-<div class="wp-block-embed__wrapper">
-<div class="iframe">
-<div id="player">
-
-</div>
-<div class="player-unavailable">
-<h1 id="an-error-occurred." class="message">An error occurred.</h1>
-<div class="submessage">
-<a href="https://www.youtube.com/watch?v=rAsYdFE_1-k"
-target="_blank">Try watching this video on www.youtube.com</a>, or
-enable JavaScript if it is disabled in your browser.
-</div>
-</div>
-</div>
-</div>
+<figure>
+<iframe
+  width="560" height="315"
+  src="https://www.youtube.com/embed/rAsYdFE_1-k?si=35sRODSWvTG3q6j8"
+  title="YouTube video player" frameborder="0"
+  referrerpolicy="strict-origin-when-cross-origin" allowfullscreen
+></iframe>
 <figcaption>The MapRoulette SOTM 2021 workshop recording</figcaption>
 </figure>
 
@@ -122,14 +100,14 @@ wait to see new Cooperative and Tag-Fix Challenges the community comes
 up with!
 
 > Super interesting
-> [\#SotM2021](https://twitter.com/hashtag/SotM2021?src=hash&ref_src=twsrc%5Etfw)
+> [\#SotM2021](https://twitter.com/hashtag/SotM2021)
 > workshop on @maproulette, one of my favorite OSM-related tools. Thanks
 > @mvexel for the informative presentation and detailed examples! 👏🏻
-> [\#StateoftheMap](https://twitter.com/hashtag/StateoftheMap?src=hash&ref_src=twsrc%5Etfw)
+> [\#StateoftheMap](https://twitter.com/hashtag/StateoftheMap)
 > [pic.twitter.com/0iPsiFK8tD](https://t.co/0iPsiFK8tD)
 >
 > — Federica Gaspari (@fede_gaspari) [July 10,
-> 2021](https://twitter.com/fede_gaspari/status/1413900783309971465?ref_src=twsrc%5Etfw)
+> 2021](https://twitter.com/fede_gaspari/status/1413900783309971465)
 
 To conclude, I had a fantastic time overall connecting and reconnecting
 with other mappers and learning so much about this topic but also so

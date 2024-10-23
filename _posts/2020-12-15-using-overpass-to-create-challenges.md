@@ -26,7 +26,7 @@ stop nodes in a certain area. [This Overpass
 query](http://overpass-turbo.eu/s/Wh4) will give you
 all `highway=bus_stop` nodes in Salt Lake City:
 
-``` wp-block-code
+```overpassql
 area[name="Salt Lake City"]->.a;
 node[highway=bus_stop](area.a);
 out meta;
@@ -34,27 +34,24 @@ out meta;
 
 Explaining the full syntax of Overpass QL (the language this query is
 written in) is outside the scope of this article. Please look at
-the [language
-reference](https://wiki.openstreetmap.org/wiki/Overpass_API/Overpass_QL), [examples](https://wiki.openstreetmap.org/wiki/Overpass_API/Overpass_API_by_Example) and
-other Overpass related pages on the OSM wiki. OSM user Binette also has
-some [MapRoulette specific query
-examples](https://wiki.openstreetmap.org/wiki/User:Binnette/OverpassQueries) on
-their user page.
+the [language reference](https://wiki.openstreetmap.org/wiki/Overpass_API/Overpass_QL),
+[examples](https://wiki.openstreetmap.org/wiki/Overpass_API/Overpass_API_by_Example)
+and other Overpass related pages on the OSM wiki. OSM user Binette also has
+some [MapRoulette specific query examples](https://wiki.openstreetmap.org/wiki/User:Binnette/OverpassQueries)
+on their user page.
 
 You can plug this query right into MapRoulette when you create a
 Challenge:
 
-<figure class="wp-block-image">
-<img src="https://learn.maproulette.org/media/5d885ce2.png"
-decoding="async" />
+<figure>
+{% picture images/overpass_challenge_create.png %}
 </figure>
 
 After completing the Challenge wizard, your Tasks will reflect the
 result of the Overpass Query:
 
-<figure class="wp-block-image">
-<img src="https://learn.maproulette.org/media/c59956e6.png"
-decoding="async" />
+<figure>
+{% picture images/overpass_challenge_details.png %}
 </figure>
 
 ## Common Pitfalls
@@ -94,7 +91,7 @@ results than you expected. This is because MapRoulette will interpret
 each separate node as a Task, as well as the Way itself. To avoid this,
 use `out geom`. So instead of…
 
-``` wp-block-code
+```overpassql
 way["highway"="path"](40.76,-111.90,40.81,-111.85);
 out body;
 >;
@@ -103,7 +100,7 @@ out skel qt;
 
 … do this:
 
-``` wp-block-code
+```overpassql
 way["highway"="path"](40.76,-111.90,40.81,-111.85);
 out geom;
 ```
@@ -126,7 +123,6 @@ data”. By using `out meta` you get “everything output by body for each
 OSM element, as well as the version, changeset id, timestamp, and the
 user data of the user that last touched”.
 
-<figure class="wp-block-image">
-<img src="https://learn.maproulette.org/media/4d189c6d.png"
-decoding="async" />
+<figure>
+{% picture images/tiger_feature_properties.png %}
 </figure>

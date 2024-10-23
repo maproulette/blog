@@ -1,0 +1,9 @@
+# additional configuration for the jekyll_picture_tag plugin,
+# to tell it what image sizes and formats to build.
+presets:
+  default:
+    formats: [original]
+    widths: [400, 600, 800, 1200, 1600, 2000]
+    fallback_width: 800
+    fallback_format: original
+    dimension_attributes: true

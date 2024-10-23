@@ -20,22 +20,12 @@ of OSM editing and quality analysis tools out there?
 Here are a couple of drafts for the the forward-looking slides I plan to
 present:
 
-<figure class="wp-block-image size-full">
-<img
-src="https://blog.maproulette.org/wp-content/uploads/2022/08/10-Years-Of-MapRoulette-SOTM-20221.png"
-class="wp-image-122" decoding="async"
-srcset="https://blog.maproulette.org/wp-content/uploads/2022/08/10-Years-Of-MapRoulette-SOTM-20221.png 960w, https://blog.maproulette.org/wp-content/uploads/2022/08/10-Years-Of-MapRoulette-SOTM-20221-300x169.png 300w, https://blog.maproulette.org/wp-content/uploads/2022/08/10-Years-Of-MapRoulette-SOTM-20221-768x432.png 768w, https://blog.maproulette.org/wp-content/uploads/2022/08/10-Years-Of-MapRoulette-SOTM-20221-750x422.png 750w"
-data-fetchpriority="high" sizes="(max-width: 960px) 100vw, 960px"
-width="960" height="540" />
+<figure>
+{% picture images/10-Years-Of-MapRoulette-SOTM-2022-1.png %}
 </figure>
 
-<figure class="wp-block-image size-full">
-<img
-src="https://blog.maproulette.org/wp-content/uploads/2022/08/10-Years-Of-MapRoulette-SOTM-2022.png"
-class="wp-image-123"
-srcset="https://blog.maproulette.org/wp-content/uploads/2022/08/10-Years-Of-MapRoulette-SOTM-2022.png 960w, https://blog.maproulette.org/wp-content/uploads/2022/08/10-Years-Of-MapRoulette-SOTM-2022-300x169.png 300w, https://blog.maproulette.org/wp-content/uploads/2022/08/10-Years-Of-MapRoulette-SOTM-2022-768x432.png 768w, https://blog.maproulette.org/wp-content/uploads/2022/08/10-Years-Of-MapRoulette-SOTM-2022-750x422.png 750w"
-sizes="(max-width: 960px) 100vw, 960px" decoding="async" width="960"
-height="540" />
+<figure>
+{% picture images/10-Years-Of-MapRoulette-SOTM-2022.png %}
 </figure>
 
 Let me know what your ideas are, please! If you will be in Firenze,

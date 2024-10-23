@@ -22,13 +22,8 @@ here: <https://maproulette.org/browse/challenges/17664>. We’ve included
 detailed instructions in the challenge and most issues should be
 straightforward to address.
 
-<figure class="wp-block-image size-large">
-<img
-src="https://blog.maproulette.org/wp-content/uploads/2021/05/4289481034_c47712c3da_c.jpg"
-class="wp-image-109"
-srcset="https://blog.maproulette.org/wp-content/uploads/2021/05/4289481034_c47712c3da_c.jpg 800w, https://blog.maproulette.org/wp-content/uploads/2021/05/4289481034_c47712c3da_c-300x200.jpg 300w, https://blog.maproulette.org/wp-content/uploads/2021/05/4289481034_c47712c3da_c-768x512.jpg 768w, https://blog.maproulette.org/wp-content/uploads/2021/05/4289481034_c47712c3da_c-750x500.jpg 750w"
-sizes="(max-width: 800px) 100vw, 800px" data-fetchpriority="high"
-decoding="async" width="800" height="533" />
+<figure>
+{% picture images/level_crossing_in_brisbane.jpg %}
 <figcaption>A level crossing in Brisbane, Australia. Source: Ash Kyd on
 <a href="https://flic.kr/p/7x3Hgy">Flickr</a></figcaption>
 </figure>
@@ -71,6 +66,4 @@ challenge or If you have feedback about Atlas Checks or ideas for new
 validations that you’d like to see added to Atlas Checks by getting in
 touch with us on slack or through OSM.
 
-*Would you like to promote your Challenge on the MapRoulette blog? Write
-to us at <a href="/cdn-cgi/l/email-protection" class="__cf_email__"
-data-cfemail="335e5243415c465f56474756735e5243415c465f564747561d5c4154">[email protected]</a>!*
+*Would you like to promote your Challenge on the MapRoulette blog? Send us an email!*

@@ -29,7 +29,7 @@ a place usually does not change. It is reasonable for OSMCha to flag
 these changesets for review by a human, just to make sure the change is
 OK.
 
-<figure class="wp-block-image is-resized">
+<figure>
 <img
 src="https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F9916d36d-29ac-4907-ab96-82bda99a4ef4%2FUntitled.png?table=block&amp;id=a32ef34b-6ab7-49b0-b6eb-dadbfbb9b94d&amp;width=2780&amp;userId=&amp;cache=v2"
 decoding="async" data-fetchpriority="high" width="610" height="557"

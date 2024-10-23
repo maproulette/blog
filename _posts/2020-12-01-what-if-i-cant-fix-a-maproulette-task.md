@@ -17,14 +17,7 @@ post explains each of them.
 Before you even click ‘Edit’ to start editing the task in iD or JOSM,
 you already have a couple of options:
 
-<figure class="wp-block-image size-large">
-<img
-src="https://blog.maproulette.org/wp-content/uploads/2020/12/Screen-Shot-2020-12-01-at-2.11.10-PM.png"
-class="wp-image-16"
-srcset="https://blog.maproulette.org/wp-content/uploads/2020/12/Screen-Shot-2020-12-01-at-2.11.10-PM.png 1005w, https://blog.maproulette.org/wp-content/uploads/2020/12/Screen-Shot-2020-12-01-at-2.11.10-PM-300x169.png 300w, https://blog.maproulette.org/wp-content/uploads/2020/12/Screen-Shot-2020-12-01-at-2.11.10-PM-768x433.png 768w, https://blog.maproulette.org/wp-content/uploads/2020/12/Screen-Shot-2020-12-01-at-2.11.10-PM-750x422.png 750w"
-decoding="async" sizes="(max-width: 1005px) 100vw, 1005px"
-data-fetchpriority="high" width="1005" height="566" />
-</figure>
+{% picture images/task_editing.png %}
 
 - **Skip**: if you would like to skip this task for whatever reason. The
   task will remain in the pool for other mappers to resolve.
@@ -36,14 +29,7 @@ data-fetchpriority="high" width="1005" height="566" />
 After you click ‘Edit’, the task area will be loaded in you editor of
 choice. The choices for completion of the task change to the following:
 
-<figure class="wp-block-image size-large">
-<img
-src="https://blog.maproulette.org/wp-content/uploads/2020/12/Screen-Shot-2020-12-01-at-2.21.47-PM.png"
-class="wp-image-17" decoding="async"
-sizes="(max-width: 504px) 100vw, 504px"
-srcset="https://blog.maproulette.org/wp-content/uploads/2020/12/Screen-Shot-2020-12-01-at-2.21.47-PM.png 504w, https://blog.maproulette.org/wp-content/uploads/2020/12/Screen-Shot-2020-12-01-at-2.21.47-PM-300x218.png 300w"
-width="504" height="366" />
-</figure>
+{% picture images/task_completion_widget.png %}
 
 - **I fixed it!**: if you feel that you improved OSM according to the
   task instructions, this lets MapRoulette know that the task is fixed.

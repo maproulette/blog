@@ -51,7 +51,5 @@ countries. (This is quite easy if you use Overpass and the Cloning
 function for existing Challenges.)
 
 We hope that these changes end up being the improvements I want them to
-be, so everyone can enjoy MapRoulette more. Let me know what you think
-by emailing <a href="/cdn-cgi/l/email-protection" class="__cf_email__"
-data-cfemail="294448595b465c454c5d5d4c694448595b465c454c5d5d4c07465b4e">[email protected]</a>
-or going on Twitter and tweet at @maproulette. Happy mapping!
+be, so everyone can enjoy MapRoulette more. Let me know what you think.
+Happy mapping!
