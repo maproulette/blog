@@ -6,7 +6,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   an easy way to find things to improve on OSM, be it in their own town or
   city, or anywhere in the world!
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://blog.maproulette.org" # the base hostname & protocol for your site
 permalink: "/:year/:month/:day/:title/"
 show_excerpts: true
 
@@ -27,7 +27,7 @@ defaults:
       layout: "post"
 
 feed:
-  path: /feed
+  path: /feed/
 
 picture:
   output: assets/
