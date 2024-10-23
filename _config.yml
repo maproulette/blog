@@ -27,7 +27,7 @@ defaults:
       layout: "post"
 
 feed:
-  path: /feed/
+  path: /feed.atom
 
 picture:
   output: assets/
