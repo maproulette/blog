@@ -87,7 +87,7 @@ Save the layer as a JOSM data file.
 The `mr-cli` tool is designed to take an OSMChange / JOSM change file
 and create MapRoulette Tag Fix or Cooperative tasks from it. You can
 install it with `npm`. You can find more information about the tool [on
-its github page](https://github.com/maproulette/mr-cli).
+its GitHub page](https://github.com/maproulette/mr-cli).
 
 We use the following command to create the tag-fix challenge:
 
