@@ -1,0 +1,46 @@
+---
+---
+@import "minima";
+
+body {
+  color: white;
+  background-image: linear-gradient(90deg, #315e4a, #172e51);
+}
+
+pre, code {
+  border: none;
+  background: none;
+  padding: initial;
+}
+
+a, a:visited, .site-nav .page-link, .site-nav .page-link:visited {
+  color: rgb(145, 243, 162);
+}
+
+a:hover, .site-nav .page-link:hover {
+  color: white;
+}
+
+body > header {
+  background-image: linear-gradient(90deg, #47725f, #172e51);
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 2px 4px 0px;
+  border: none !important;
+}
+
+.site-title {
+  color: white !important;
+  letter-spacing: initial;
+}
+
+.post-meta, .footer-col-wrapper {
+  color: #ddd;
+}
+
+.svg-icon {
+  fill: white;
+}
+
+.site-footer {
+  background: #172e51;
+  border: none;
+}
