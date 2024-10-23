@@ -1,0 +1,48 @@
+title: The MapRoulette Blog
+email: maproulette@maproulette.org
+description: >- # this means to ignore newlines until "baseurl:"
+  MapRoulette is the micro-tasking platform for OpenStreetMap. With 1000s
+  of topics and millions of tasks to choose from, MapRoulette gives mappers
+  an easy way to find things to improve on OSM, be it in their own town or
+  city, or anywhere in the world!
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+permalink: "/:year/:month/:day/:title/"
+
+mastodon_url: https://en.osm.town/@MapRoulette 
+github_username:  maproulette
+
+# Build settings
+theme: minima
+plugins:
+  - jekyll-feed
+
+defaults:
+  - scope:
+      path: "" # an empty string here means all files in the project
+      type: "posts"
+    values:
+      layout: "post"
+
+feed:
+  path: /feed/
+  
+# Exclude from processing.
+# The following items will not be processed, by default.
+# Any item listed under the `exclude:` key here will be automatically added to
+# the internal "default list".
+#
+# Excluded items can be processed by explicitly listing the directories or
+# their entries' file path in the `include:` list.
+#
+# exclude:
+#   - .sass-cache/
+#   - .jekyll-cache/
+#   - gemfiles/
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules/
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
