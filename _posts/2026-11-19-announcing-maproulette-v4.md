@@ -40,7 +40,7 @@ The dashboard has been redesigned to show you more useful information at a glanc
 
 Like MapRoulette 3, the new MapRoulette UI is available in many languages. You can choose the interface language in the upper right corner.
 
-If the interface isn't yet fully translated into your language, you can [help us translate it using Transifex](https://explore.transifex.com/osmlab/maproulette3/).
+If the interface isn't yet fully translated into your language, you can [help us translate it using Transifex](https://explore.transifex.com/osmlab/maproulette/).
 
 ## Features we removed
 
