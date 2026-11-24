@@ -7,4 +7,4 @@ If you would like to contribute to this blogâ€”write a guest post, translatingâ€
 
 [frontend]: https://github.com/maproulette/maproulette3/
 [backend]: https://github.com/maproulette/maproulette-backend/
-[translating]: https://www.transifex.com/osmlab/maproulette3/
+[translating]: https://explore.transifex.com/osmlab/maproulette/
